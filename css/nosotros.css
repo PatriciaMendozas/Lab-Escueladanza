@@ -1,1 +1,32 @@
 /* Inserta tu codigo aqui */
+*{
+	outline:1px solid rgba(255,0,0,0.3);
+}
+hr{
+	margin: 6% 0%;
+}
+img{
+	width: 100%
+}
+.nosotros{
+	background-image: url(../img/dance_7.jpg);
+}
+.sobre_nos{
+	width: 25%;
+	margin: 18% 36% 5%;
+	background: rgba(101, 87, 76, 0.6)}
+
+.text_nos{
+	color: white;
+}
+.pilar{
+	background-image: url(../img/tile2.png);
+	
+}
+.marg_pilar{
+	margin: 6% 0%;
+	text-align: center;
+}
+.fot_inst{
+	border-image-width: 50%
+}
