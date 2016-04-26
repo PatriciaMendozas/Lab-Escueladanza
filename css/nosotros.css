@@ -2,11 +2,17 @@
 *{
 	outline:1px solid rgba(255,0,0,0.3);
 }
+.row{
+	margin: 0;
+}
 hr{
 	margin: 6% 0%;
 }
 img{
 	width: 100%
+}
+.x {
+background: orange;
 }
 .nosotros{
 	background-image: url(../img/dance_7.jpg);
@@ -28,5 +34,15 @@ img{
 	text-align: center;
 }
 .fot_inst{
+<<<<<<< HEAD
 	background-image: 50%;
+=======
+	border-image-width: 50%
+}
+
+.fot_inst{
+	width: 220px;
+	height: 176px;
+	overflow: initial;
+>>>>>>> 732d3b0278e221d2baa0d3516bad3117f3a035f6
 }
