@@ -2,6 +2,43 @@
 *{
 	outline:1px solid rgba(255,0,0,0.0);
 }
+/*menu*/
+a{
+	text-decoration: none;
+}
+.header{
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	background-color:#F5F5F5;
+	opacity: 0.9;
+	z-index: 1000;
+}
+.header h1{
+	text-align: center;
+	margin: 10px;
+}
+.menu{
+	text-align: center;
+	padding: 0;
+	margin: 10px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+	display: block;
+	padding: 10px 20px;
+	color:#939696;
+	text-transform: uppercase;
+}
+.menu a:hover{
+	transform: scale(1.2);
+	background: url(../img/border.jpg) top;
+	background-size: 100% 100%;
+}
+
+/*menu*/
 .row{
 	margin: 0;
 }
@@ -14,6 +51,7 @@ img{
 
 .nosotros{
 	background-image: url(../img/dance_7.jpg);
+
 }
 .sobre_nos{
 	width: 35%;
