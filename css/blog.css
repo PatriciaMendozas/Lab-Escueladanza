@@ -1,1 +1,31 @@
-/* Inserta tu codigo aqui */
+
+*{outline: 1px solid rgba(255,0,0,0.5);}*
+.centrado{
+	text-align: center;
+}
+img{
+	width: 100%;
+}
+.fondo{
+
+	background: url("../img/old_wall.png")
+}
+.imagen{
+	width: 50%;
+	height: 500%;
+	
+
+	margin: 8% 0% 5% 0%;
+	padding: 0 0 0 0;
+}
+.cuadroazul{
+	
+	background-color: #CFD5D7;
+	margin: 8% 5% 5% 0%;
+	width: 50%;
+	height: 300%;
+	color: black;
+}
+.informacion{
+	width: 500%;
+}
