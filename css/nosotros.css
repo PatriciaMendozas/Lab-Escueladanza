@@ -11,14 +11,12 @@ hr{
 img{
 	width: 100%
 }
-.x {
-background: orange;
-}
+
 .nosotros{
 	background-image: url(../img/dance_7.jpg);
 }
 .sobre_nos{
-	width: 25%;
+	width: 30%;
 	margin: 18% 36% 5%;
 	background: rgba(101, 87, 76, 0.6)}
 
@@ -34,15 +32,43 @@ background: orange;
 	text-align: center;
 }
 .fot_inst{
-<<<<<<< HEAD
-	background-image: 50%;
-=======
-	border-image-width: 50%
-}
-
-.fot_inst{
 	width: 220px;
 	height: 176px;
-	overflow: initial;
->>>>>>> 732d3b0278e221d2baa0d3516bad3117f3a035f6
+	overflow: hidden;}
+.titulos{
+	margin: 0% 0% 7%;
+	text-align: center;
+}
+.espacio{
+	margin:7% 0%;
+}
+#frase{
+	margin: 5% 0%;
+	font-size: 25px;
+	text-align: center;
+	font-family: verdana;
+}
+.formulario{
+	background: url(../img/shoes_1.jpg) right no-repeat;
+}
+.blue{
+	background: #0B0B61;
+	color: white;
+}
+#enviar{
+	padding: 2% 18%;
+	margin: 2% 0%;
+}
+footer{
+	padding: 2% 0% 1%;
+}
+#contact{
+	margin: 5% 0%;
+	font-family: sans-serif;
+}
+form > p{
+	margin: 2% 0%;
+}
+#nombre , #email{
+	width: 40%;
 }
