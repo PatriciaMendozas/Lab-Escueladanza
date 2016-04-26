@@ -1,6 +1,9 @@
 /* Inserta tu codigo aqui */
 *{
-	outline:1px solid rgba(255,0,0,0.3);
+	outline:1px solid rgba(255,0,0,0.0);
+}
+.row{
+	margin: 0;
 }
 hr{
 	margin: 6% 0%;
@@ -8,16 +11,20 @@ hr{
 img{
 	width: 100%
 }
+
 .nosotros{
 	background-image: url(../img/dance_7.jpg);
 }
 .sobre_nos{
-	width: 25%;
+	width: 35%;
+	height: 40%;
 	margin: 18% 36% 5%;
 	background: rgba(101, 87, 76, 0.6)}
 
 .text_nos{
 	color: white;
+	text-align: center;
+	margin: 2% 2% 7%;
 }
 .pilar{
 	background-image: url(../img/tile2.png);
@@ -28,5 +35,62 @@ img{
 	text-align: center;
 }
 .fot_inst{
-	border-image-width: 50%
+	width: 220px;
+	height: 176px;
+	overflow: hidden;}
+.titulos{
+	margin: 0% 0% 7%;
+	text-align: center;
+}
+.espacio{
+	margin:7% 0%;
+}
+#frase{
+	margin: 5% 0%;
+	font-size: 25px;
+	text-align: center;
+	font-family: verdana;
+}
+
+/*formulario*/
+.formulario{
+	background: url(../img/shoes_1.jpg) right no-repeat;
+}
+.blue{
+	background: #0B0B61;
+	color: white;
+}
+#enviar{
+	padding: 2% 18%;
+	margin: 2% 0%;
+}
+#contact{
+	margin: 5% 0%;
+	font-family: sans-serif;
+}
+form > p{
+	margin: 2% 0%;
+}
+
+input{
+	border:none;
+}
+.cuad_form{
+	border: 1px solid #0B0B61;
+	width: 40%;
+}
+
+.inf{
+	border: 1px solid #0B0B61;
+	width: 40%;
+}
+textarea{
+	border:none;
+	margin-left: 5%;
+    margin-top: -5%;
+}
+
+/*formulario*/
+footer{
+	padding: 2% 0% 1%;
 }
