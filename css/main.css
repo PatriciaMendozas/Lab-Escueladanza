@@ -4,8 +4,8 @@
 *{
 	outline:1px solid rgba(255,0,0,0.3);
 }
-a{
-	text-decoration: none;
+a {
+	color:white;
 }
 .header{
 	position: fixed;
@@ -37,6 +37,7 @@ a{
 	transform: scale(1.2);
 	background: url(../img/border.jpg) top;
 	background-size: 100% 100%;
+	text-decoration: none;
 }
 /*menu*/
 .margin{
@@ -56,20 +57,69 @@ a{
 	margin-left: 150px;
 	padding: 20px
 }
-.a{
-	background: #1A3573;
+.boton-blue{
+	background: #10224D;
 	border:none;
-	padding: 10px;
+	padding: 10px 40px;
+    border-radius: 10%;
+    margin: auto; 
+    display: block;
+    margin: auto;
+    color: white;
+}
 }	
-.a a{
+.boton-blue a{
 	color:white;
 }
-.a a:hover{
-	transform: scale(1.2);
+.boton-blue a:hover{
 	color:white;
+	text-decoration: none;
+}
+.boton-blue:hover{
+    transform: scale(1.2);
 }
 #carousel-example-generic, .carousel-inner{
 	height: 450px;
+}
+.oferta{
+	background: url("../img/textura_2.jpg");
+	padding: 60px 30px;
+}
+.oferta h3{
+	text-align: center;
+	padding: 0px 300px;
+	margin: 0;
+}
+.oferta img{
+	width: 10%;
+	display:block;
+	margin:0 auto;
+}
+.medium{
+   display: block;
+   margin:  10px auto;
+   padding: 10px 60px;
+}
+.nano{
+	width: 100%;
+	display:block;
+}
+.boy{
+	background: url("../img/instructor_4.jpg");
+	display: inline-block;
+	background-size: cover;
+	height:400px;
+	}
+.girl{
+	background: url("../img/profesor_9.jpg");
+	background-size: cover;
+	display: inline-block;
+	float: right;
+	height:400px;
+}
+.large{
+	position: absolute;
+	left: 550px;
 }
 /*mapa*/
 
@@ -77,7 +127,7 @@ a{
 	margin: 0%;
 }
 .blue_mapa{
-	background: #192F77;
+	background: #10224D;
 	color: white;
 }
 .font-15{
@@ -91,7 +141,7 @@ a{
 	background: url(../img/shoes_1.jpg) right no-repeat;
 }
 .blue{
-	background: #192F77;
+	background: #10224D;
 	color: white;
 }
 #enviar{
