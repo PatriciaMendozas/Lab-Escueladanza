@@ -6,11 +6,24 @@
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Montserrat:400,700'>
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="img/icomoon/style.css">
 	<link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/blog.css">
 </head>
 <body>
-
+<!--INICIO-->
+	<div class="header">
+		<h1>ESCUELA DE DANZA</h1>
+		<ul class="menu">
+			<li><a href="">Nosotros</a></li>
+			<li><a href="">Clases</a></li>
+			<li><a href="">Blog</a></li>
+			<li><a href="">Contáctanos</a></li>
+		</ul>
+	</div>
+	<div class="margin"></div>
+<!--menu-->
+<section>
 		<h1 class="centrado">BLOG</h1>
 <div class="fondo">
 	<div class="row">
@@ -29,7 +42,6 @@
 		Todos los bailarines de ballet, sin importar su experiencia o su eficiencia, toman diariamente clase de ballet para mantener sus cuerpos fuertes y flexibles. La mayoría de las clases de ballet inician con el trabajo en la barra.
 		</div>
 	</div>
-
 	<div class="row">
 		<div class="col-3">
 			<img class="imagen"src="img/instructor_1.jpg">
@@ -38,10 +50,40 @@
 
 		</div>
 	</div>
-
-
 </div>		
-
+<!-- formulario -->
+			<div class="row formulario">
+				<div class="container">
+					<h2 id="contact"><strong>Contáctenos</strong></h2>
+					<form action="index.html" method="get">
+					<p>
+						<div class="cuad_form">
+							<label for="nombre"><i class="icon-user"></i></label>
+							<input type="text" id="nombre" name="nombre" placeholder="Nombre" required >
+						</div>
+					</p>
+					<p>
+						<div class="cuad_form">
+							<label for="email"><i class="icon-mail2"></i></label>
+							<input type="email" id="email" name="email" placeholder="Email" required>
+						</div>
+					</p>
+					<p>
+						<div class="inf">
+							<label  for="informacion"><i class="icon-pencil2" id="lapiz"></i></label>
+							<textarea id="informacion" name="informacion" placeholder="Mensaje" cols="56" rows="10"  required></textarea>
+						</div>
+					</p>
+					<button class="blue" id="enviar" type="submit">ENVIAR</button>
+					</form>	
+				</div>
+			</div>
+	</section>
+	<footer class="row blue">
+			<div >
+				@escuela de danza Todos los derechos reservados
+			</div>
+	</footer>
 
 
 </body>
