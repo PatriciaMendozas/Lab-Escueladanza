@@ -5,6 +5,9 @@
 a{
 	text-decoration: none;
 }
+img{
+	width: 100%;
+}
 .row{
 	margin: 0;
 }
@@ -48,32 +51,50 @@ a{
 /*menu*/
 .centrado{
 	text-align: center;
+	padding-bottom: 5%;
 }
-img{
+.color_fondo{
+	background-color:#E2E2E2;
+	padding: 5% 0% 8%;
+}
+.mar_1
+{
+	margin: 1% 0% 2%;
+}
+.tama_ver{
+	padding: 2% 13%;
+	margin: 2% 0%;
+}
+.sti_blog{
+	margin: 2% 0%;
+}
+.spa_row{
+	margin: 5% 0%;
+}
+.conte_img{
 	width: 100%;
 }
-.fondo{
-
-	background: url("../img/old_wall.png")
+.qit_esp {
+	margin: 0%;
+	padding:  0%;
 }
-.imagen{
-	width: 50%;
-	height: 500%;
-	
-
-	margin: 8% 0% 5% 0%;
-	padding: 0 0 0 0;
+#uno_imag{
+	background: url(../img/blog1.jpg);
+	background-size: cover;
+	padding:0%;
+	height: 212px;
 }
-.cuadroazul{
-	
-	background-color: #CFD5D7;
-	margin: 8% 5% 5% 0%;
-	width: 50%;
-	height: 300%;
-	color: black;
+#dos_imag{
+	background: url(../img/profesor_5.jpg);
+	background-size: cover;
+	padding:0%;
+	height: 212px;
 }
-.informacion{
-	width: 500%;
+#tres_imag{
+	background: url(../img/instructor_1.jpg);
+	background-size: cover;
+	padding:0%;
+	height: 212px;
 }
 /*formulario*/
 .formulario{
@@ -117,3 +138,4 @@ textarea{
 footer{
 	padding: 2% 0% 1%;
 }
+
