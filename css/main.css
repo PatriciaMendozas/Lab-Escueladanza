@@ -1,6 +1,9 @@
 /**{
 	outline: 2px solid gray;
 }*/
+*{
+	outline:1px solid rgba(255,0,0,0.3);
+}
 a{
 	text-decoration: none;
 }
@@ -35,6 +38,7 @@ a{
 	background: url(../img/border.jpg) top;
 	background-size: 100% 100%;
 }
+/*menu*/
 .margin{
 	width: 100%;
 	background-color:#F5F5F5;
@@ -62,4 +66,61 @@ a{
 }
 #carousel-example-generic, .carousel-inner{
 	height: 450px;
+}
+/*mapa*/
+
+.row{
+	margin: 0%;
+}
+.blue_mapa{
+	background: #192F77;
+	color: white;
+}
+.font-15{
+	font-size: 15px;
+}
+.espacio_pd {
+	padding: 5%;
+}
+/*formulario*/
+.formulario{
+	background: url(../img/shoes_1.jpg) right no-repeat;
+}
+.blue{
+	background: #192F77;
+	color: white;
+}
+#enviar{
+	padding: 2% 18%;
+	margin: 2% 0%;
+}
+#contact{
+	margin: 5% 0%;
+	font-family: sans-serif;
+}
+form > p{
+	margin: 2% 0%;
+}
+
+input{
+	border:none;
+}
+.cuad_form{
+	border: 1px solid #192F77;
+	width: 40%;
+}
+
+.inf{
+	border: 1px solid #192F77;
+	width: 40%;
+}
+textarea{
+	border:none;
+	margin-left: 5%;
+    margin-top: -5%;
+}
+
+/*formulario*/
+footer{
+	padding: 2% 0% 1%;
 }
