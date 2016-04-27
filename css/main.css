@@ -60,6 +60,10 @@ a{
 .a a{
 	color:white;
 }
+.a a:hover{
+	transform: scale(1.2);
+	color:white;
+}
 #carousel-example-generic, .carousel-inner{
 	height: 450px;
 }
