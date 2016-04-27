@@ -1,5 +1,51 @@
 
 *{outline: 1px solid rgba(255,0,0,0.5);}*
+
+/*menu*/
+a{
+	text-decoration: none;
+}
+.row{
+	margin: 0;
+}
+.margin{
+	height: 108px;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+.header{
+	position: fixed;
+	text-align: center;
+	width: 100%;
+	background-color:#F5F5F5;
+	opacity: 0.9;
+	z-index: 1000;
+}
+.header h1{
+	text-align: center;
+	margin: 10px;
+}
+.menu{
+	text-align: center;
+	padding: 0;
+	margin: 10px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+	display: block;
+	padding: 10px 20px;
+	color:#192F77;
+	text-transform: uppercase;
+}
+.menu a:hover{
+	transform: scale(1.2);
+	background: url(../img/border.jpg) top;
+	background-size: 100% 100%;
+}
+
+/*menu*/
 .centrado{
 	text-align: center;
 }
@@ -28,4 +74,46 @@ img{
 }
 .informacion{
 	width: 500%;
+}
+/*formulario*/
+.formulario{
+	background: url(../img/shoes_1.jpg) right no-repeat;
+}
+.blue{
+	background: #192F77;
+	color: white;
+}
+#enviar{
+	padding: 2% 18%;
+	margin: 2% 0%;
+}
+#contact{
+	margin: 5% 0%;
+	font-family: sans-serif;
+}
+form > p{
+	margin: 2% 0%;
+}
+
+input{
+	border:none;
+}
+.cuad_form{
+	border: 1px solid #192F77;
+	width: 40%;
+}
+
+.inf{
+	border: 1px solid #192F77;
+	width: 40%;
+}
+textarea{
+	border:none;
+	margin-left: 5%;
+    margin-top: -5%;
+}
+
+/*formulario*/
+footer{
+	padding: 2% 0% 1%;
 }

@@ -1,10 +1,15 @@
 /* Inserta tu codigo aqui */
 *{
-	outline:1px solid rgba(255,0,0,0.0);
+	outline:1px solid rgba(255,0,0,0.3);
 }
 /*menu*/
 a{
 	text-decoration: none;
+}
+.margin{
+	height: 108px;
+	width: 100%;
+	background-color: #F5F5F5;
 }
 .header{
 	position: fixed;
@@ -29,7 +34,7 @@ a{
 .menu a{
 	display: block;
 	padding: 10px 20px;
-	color:#939696;
+	color:#192F77;
 	text-transform: uppercase;
 }
 .menu a:hover{
@@ -40,7 +45,7 @@ a{
 
 /*menu*/
 .row{
-	margin: 0;
+	margin: 0%;
 }
 hr{
 	margin: 6% 0%;
@@ -95,7 +100,7 @@ img{
 	background: url(../img/shoes_1.jpg) right no-repeat;
 }
 .blue{
-	background: #0B0B61;
+	background: #192F77;
 	color: white;
 }
 #enviar{
@@ -114,12 +119,12 @@ input{
 	border:none;
 }
 .cuad_form{
-	border: 1px solid #0B0B61;
+	border: 1px solid #192F77;
 	width: 40%;
 }
 
 .inf{
-	border: 1px solid #0B0B61;
+	border: 1px solid #192F77;
 	width: 40%;
 }
 textarea{
