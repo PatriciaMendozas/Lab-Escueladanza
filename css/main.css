@@ -175,6 +175,7 @@ form > p{
 
 input{
 	border:none;
+	width: 95%;
 }
 .cuad_form{
 	border: 1px solid #192F77;
