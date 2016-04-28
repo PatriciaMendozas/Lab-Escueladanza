@@ -16,6 +16,7 @@ a {
 .header h1{
 	text-align: center;
 	margin: 10px;
+	font-weight: bold;
 }
 .menu{
 	text-align: center;
@@ -67,10 +68,10 @@ a {
     display: block;
     margin: auto;
     color: white;
+    position: relative;
 }
 .frase{
 	font-size: 18px;
-	background: 
 }
 .boton-blue a{
 	color:white;
@@ -92,6 +93,7 @@ a {
 .font-40{
 	font-size: 40px;
 	margin: 4% 0%;
+	font-family: "DolceVita";
 }
 .oferta h3{
 	text-align: center;
@@ -156,6 +158,12 @@ a {
 #enviar{
 	padding: 2% 18%;
 	margin: 2% 0%;
+}
+#enviar:hover{
+	background:white;
+	color:#10224D;
+	font-size:18px;
+	font-family: "Neoteric-Bold";
 }
 #contact{
 	margin: 5% 0%;

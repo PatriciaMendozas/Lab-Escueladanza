@@ -70,10 +70,14 @@ img{
 .mar_1
 {
 	margin: 1% 0% 2%;
+	color:#ADADAD;
 }
 .tama_ver{
 	padding: 2% 13%;
 	margin: 2% 0%;
+}
+.tama_ver:hover{
+    transform: scale(1.2);
 }
 .sti_blog{
 	margin: 2% 0%;
@@ -117,6 +121,12 @@ img{
 #enviar{
 	padding: 2% 18%;
 	margin: 2% 0%;
+}
+#enviar:hover{
+	background:white;
+	color:#10224D;
+	font-size:18px;
+	font-family: "Neoteric-Bold";
 }
 #contact{
 	margin: 5% 0%;
