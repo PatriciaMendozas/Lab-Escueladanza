@@ -1,5 +1,5 @@
 
-*{outline: 1px solid rgba(255,0,0,0.5);}*
+/**{outline: 1px solid rgba(255,0,0,0.5);}**/
 
 /*menu*/
 a{
@@ -33,13 +33,16 @@ img{
 	padding: 0;
 	margin: 10px;
 }
+#tit_menu{
+	color: #10224D;
+}
 .menu li{
     display: inline-block;
 }
 .menu a{
 	display: block;
 	padding: 10px 20px;
-	color:#192F77;
+	color:#939696;
 	text-transform: uppercase;
 }
 .menu a:hover{
@@ -51,11 +54,18 @@ img{
 /*menu*/
 .centrado{
 	text-align: center;
-	padding-bottom: 5%;
+	padding: 5% 0%; 
 }
-.color_fondo{
-	background-color:#E2E2E2;
-	padding: 5% 0% 8%;
+.mar_bot{
+	
+	padding: 0% 0% 8%;
+}
+#fond_item{
+	background-color: #E7EAEB;
+}
+
+.fondo_col{
+	background-color: #D3D6D7;
 }
 .mar_1
 {
@@ -101,7 +111,7 @@ img{
 	background: url(../img/shoes_1.jpg) right no-repeat;
 }
 .blue{
-	background: #192F77;
+	background: #10224D;
 	color: white;
 }
 #enviar{
@@ -120,12 +130,12 @@ input{
 	border:none;
 }
 .cuad_form{
-	border: 1px solid #192F77;
+	border: 1px solid #10224D;
 	width: 40%;
 }
 
 .inf{
-	border: 1px solid #192F77;
+	border: 1px solid #10224D;
 	width: 40%;
 }
 textarea{

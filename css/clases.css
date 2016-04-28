@@ -1,6 +1,6 @@
 /* Inserta tu codigo aqui */
 
-*{outline: 1px solid rgba(255,0,0,0.5);}*
+/**{outline: 1px solid rgba(255,0,0,0.5);}**/
 .row{
 	margin: 0;
 }
@@ -28,7 +28,7 @@ margin-top: 5%;
 }
 .cuadroplomo{
 	position: relative;
-	top: -220px;
+	top: -171px;
 	background-color:rgb(0,0,0);
    	opacity:0.6; 
    	width:200px;
@@ -66,13 +66,16 @@ a{
 	padding: 0;
 	margin: 10px;
 }
+#tit_menu{
+	color: #10224D;
+}
 .menu li{
     display: inline-block;
 }
 .menu a{
 	display: block;
 	padding: 10px 20px;
-	color:#192F77;
+	color:#939696;
 	text-transform: uppercase;
 }
 .menu a:hover{
@@ -86,7 +89,7 @@ a{
 	background: url(../img/shoes_1.jpg) right no-repeat;
 }
 .blue{
-	background: #192F77;
+	background: #10224D;
 	color: white;
 }
 #enviar{
@@ -104,11 +107,11 @@ input{
 	border:none;
 }
 .cuad_form{
-	border: 1px solid #192F77;
+	border: 1px solid #10224D;
 	width: 40%;
 }
 .inf{
-	border: 1px solid #192F77;
+	border: 1px solid #10224D;
 	width: 40%;
 }
 textarea{

@@ -1,9 +1,7 @@
-/**{
-	outline: 2px solid gray;
-}*/
+/*
 *{
 	outline:1px solid rgba(255,0,0,0.3);
-}
+}*/
 a {
 	color:white;
 }
@@ -23,6 +21,9 @@ a {
 	text-align: center;
 	padding: 0;
 	margin: 10px;
+}
+#tit_menu{
+	color: #192F77;
 }
 .menu li{
     display: inline-block;
@@ -51,7 +52,7 @@ a {
 	z-index: 1000;
 	position: absolute;
 	background: rgba(255, 255, 255, 0.1);
-	width: 15%;
+	width: 18%;
 	color: #F0F0F0;
 	margin-top: 100px;
 	margin-left: 150px;
@@ -60,14 +61,17 @@ a {
 .boton-blue{
 	background: #10224D;
 	border:none;
-	padding: 10px 40px;
+	padding: 17px 70px;
     border-radius: 10%;
     margin: auto; 
     display: block;
     margin: auto;
     color: white;
 }
-}	
+.frase{
+	font-size: 18px;
+	background: 
+}
 .boton-blue a{
 	color:white;
 }
@@ -85,10 +89,14 @@ a {
 	background: url("../img/textura_2.jpg");
 	padding: 60px 30px;
 }
+.font-40{
+	font-size: 40px;
+	margin: 4% 0%;
+}
 .oferta h3{
 	text-align: center;
-	padding: 0px 300px;
-	margin: 0;
+	padding: 12px 300px;
+	
 }
 .oferta img{
 	width: 10%;
@@ -119,7 +127,8 @@ a {
 }
 .large{
 	position: absolute;
-	left: 550px;
+	left: 541px;
+	top: 1246px;
 }
 /*mapa*/
 

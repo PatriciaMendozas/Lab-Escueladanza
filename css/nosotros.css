@@ -1,7 +1,7 @@
 /* Inserta tu codigo aqui */
-*{
+/**{
 	outline:1px solid rgba(255,0,0,0.3);
-}
+}*/
 /*menu*/
 a{
 	text-decoration: none;
@@ -28,19 +28,26 @@ a{
 	padding: 0;
 	margin: 10px;
 }
+#tit_menu{
+	color: #10224D;
+}
 .menu li{
     display: inline-block;
 }
 .menu a{
 	display: block;
 	padding: 10px 20px;
-	color:#192F77;
+	color:#939696;
 	text-transform: uppercase;
 }
 .menu a:hover{
 	transform: scale(1.2);
 	background: url(../img/border.jpg) top;
 	background-size: 100% 100%;
+}
+.text_prof{
+	font-family: cursive;
+	font-size: 13px;
 }
 
 /*menu*/
@@ -100,7 +107,7 @@ img{
 	background: url(../img/shoes_1.jpg) right no-repeat;
 }
 .blue{
-	background: #192F77;
+	background: #10224D;
 	color: white;
 }
 #enviar{
@@ -119,12 +126,12 @@ input{
 	border:none;
 }
 .cuad_form{
-	border: 1px solid #192F77;
+	border: 1px solid #10224D;
 	width: 40%;
 }
 
 .inf{
-	border: 1px solid #192F77;
+	border: 1px solid #10224D;
 	width: 40%;
 }
 textarea{
